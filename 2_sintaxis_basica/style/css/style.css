@@ -1,0 +1,13 @@
+/*h1 es nuestro selector y las llaves {} es donde van las declaraciones*/
+h1{
+    /* Lo que entra aqui son lso atributos con sus valores que son conocidos como delcaraciones 
+    atributo seria el color y le background-color y los que pongas y valor de atributo es lo que definimos es decir ese red ese black es el valor que definimos al atributo.
+    */
+    color: red; /*color de letra*/
+    background-color: black; /*Color de fondo*/
+}
+
+h2{
+    color: yellow;
+    background-color: blue;
+}
