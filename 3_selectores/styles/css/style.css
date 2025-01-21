@@ -1,0 +1,40 @@
+/*
+El selector es con lo que justamente vamos a seleccionar los tags del html
+HTML es un lenguaje de etiquetado
+CSS es un lenguaje de estilos
+*/
+/*
+Cuando se hace el llamado por etiqueta se lo conoce como selector pero selector por elemento eso quiere decir
+Que todos las etiquetas de h1 al ser llamado como elemento h1 engloba a todos los selectores de h1 y se modifican aqui
+*/
+
+/*Podemos seleccionar cual se modifica*/
+h1{
+    color: white;
+    background-color: black;
+}
+/*Podemos seleccionar los 2 elementos en un uno solo*/
+h1, h2{
+    color: white;
+    background-color: black;
+}
+/*Si seleccionamos la etiqueta body se aplicara en toda la web*/
+body{
+    background-color: yellow;
+}
+/*Si se trabaja usnado el *   */
+*{
+    /*Esto aplicara a todo el documento*/
+    /*Recomendado para cosas puntuales por ejemplo aplicar un formato de estilos a todo el documentos*/
+    font-family: cursive;
+}
+/* # conocido como el numeral o el hashtag */
+/* Solo se puede usar una vez -  */
+/*Los id tienen nombre propio */
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Estilo de letra*/
+}
+#parrafo {
+    text-align: end; /*Texto alineado hacia el final*/
+}
+/* SELECTOR MAS IMPORTANTE - el SELECTOR DE CLASE */

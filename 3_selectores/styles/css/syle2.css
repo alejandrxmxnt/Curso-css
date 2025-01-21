@@ -1,0 +1,41 @@
+/*Para indentificar con el atributo class hacemos el uso de .   */
+/*
+.seccion1{
+    background-color: black;
+    color: white;
+}
+.seccion2{
+    background-color: blue;
+    color: green;
+}
+*/
+
+/*
+Que todos los titulo sean negros pero los titulos secundarios tienen que ser todos rojos menos el tercero y los parrafos tiene que ser todos azules salvo el tercero
+*/
+h1.seccion1, h1.seccion2{
+    background-color: black;
+    color: white;
+}
+h1.seccion3 {
+    background-color: red;
+}
+h2.seccion3 {  /*Esto es seleccionar una etiqueta del html pero para que no aplique a todas hacemos que con el atributo class que en este caso es seccion3 identificamos el que cambiara*/
+    color: yellow;
+}
+p.seccion1, p.seccion2 {
+    color: green;
+}
+/* Similar se aplica para el id con identifador de # */
+p#parrafoSeleccionado {
+    color: blueviolet;
+    font-weight: bold;
+}
+/*Llamar segunda clase*/
+.estilo-fuente-distinto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Para hacer algo muy puntual y no crear una tercera clase podemos llamar a las 2 clases*/
+.seccion3.estilo-fuente-distinto {
+    text-align: end;
+}
