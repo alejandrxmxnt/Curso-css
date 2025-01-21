@@ -1,0 +1,23 @@
+/*Los colores que se conocen en el navegador por nombre*/
+h1.title1 {
+    background-color: yellow;
+}
+/*Este es por metodo hexadecimal*/
+h1.title2 {
+    background-color: #df182a; /*Formado por 6 caracteres entre los cuales tiene letras y numeros*/
+    color: #399f33;
+    border-color: #1c45bf; /*Asi estan formados los colores hexadecimales*/
+}
+/*Formacion de colores por rgb que es una mezcla de colores que surge de 3 colores entre ellos esta red, green y blue*/
+h1.title3 {
+    background-color: rgb(210, 100, 35);
+}
+/*Tambien tenemos el rgba que es el alfa, red green blue alfa*/
+h1.title4 { /*el alfa hace que el color tenga transparencia*/
+    background-color: rgba(126, 6, 6, 0.301);
+}
+/*Colores HSL que son colores desarrollados no para la computadora sino para el ojo humano*/
+body {
+    background-color: hsla(0, 100%, 50%, 0.445);
+    /*HUE es el angulo - SATURATION saturación puedde ir en porcentaje*/
+}
